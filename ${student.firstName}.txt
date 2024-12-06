@@ -1,0 +1,6 @@
+"${student.firstName}"
+"${student.lastName}"
+"Male" ${student.gender == 'Male' ? 'checked' : ''}
+"Female" ${student.gender == 'Female' ? 'checked' : ''}
+${student.course}"
+"${student.rollNo == 0 ? 'Save' :'Update'}"
